@@ -1,0 +1,125 @@
+#container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-input {
+    width: 70%
+}
+
+.send-message {
+    background-color: green;
+}
+
+.create-chat-input {
+    margin-left: 10vw;
+    margin-top: 10vh;
+    max-width: 400px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.create-chat-button {
+    margin-left: 10vw;
+    margin-top: 15px;
+    align-items: center;
+    max-width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.chat-window {
+    width: 250px;
+    position: relative;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px;
+}
+
+.chat-window-header {
+    background-color: aqua;
+    height: 40px;
+}
+
+.chat-window-name {
+    background: aliceblue;
+    padding-left: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.messages-container {
+    width: 250px;
+    height: auto;
+    min-height: 300px;
+    border: 1px grey;
+}
+
+.message-list {
+    height: 300px;
+}
+
+.message-list li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.message-input {
+    width: 70%;
+    border-radius: 50px;
+    padding: 2px;
+    height: 18px;
+}
+
+.send-message {
+    background-color: green;
+    font-weight: lighter;
+    color: white;
+    border-radius: 50px;
+    padding: 4px;
+    width: 25%;
+}
+
+.message-block {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    height: auto;
+    max-width: 250px;
+}
+
+.message-sender {
+    align-self: flex-start;
+    font-style: italic;
+    color: dimgrey;
+
+}
+
+.message-content {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.message-timestamp {
+    align-self: flex-end;
+    font-size: 10px;
+    font-style: italic;
+    color: lightgray
+}
+
+.close-button {
+    position: absolute;
+    border: 1px solid red;
+    cursor: pointer;
+    background-color: grey;
+    top: 5px;
+    right: 5px;
+}
